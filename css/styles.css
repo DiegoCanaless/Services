@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+}
+
+body{
+    background-color: #ced6f0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #01124E;
+    font-weight: 900;
+    font-size: 1.9rem;
+}
+h2{
+    color: #01124E;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.contentCard{
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin-top: 1%;
+    
+}
+
+.description{
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.591);
+}
+
+.titleService{
+    text-align: center;
+    color: #3761ed;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.contentService{
+    width: 85%;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    margin-bottom: 10vh;
+}
+
+.icon{
+    width: 13%;
+    background-color: #3f67e0;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.descriptionService{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.622);
+}
